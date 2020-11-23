@@ -32,7 +32,7 @@ jemallocator = { version = "0.3.2", features=["unprefixed_malloc_on_supported_pl
 # These are needed to support the integration tests and/or benchmarking
 [dev-dependencies]
 data = { path = "src/data" }
-mysql = "20.0.1"
+mysql = "20.1.0"
 
 [[example]]
 name = "tpch"
