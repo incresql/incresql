@@ -341,7 +341,7 @@ version = "0.1.0"
 dependencies = [
  "chrono",
  "lazy_static",
- "nom 6.0.0",
+ "nom 6.2.1",
  "regex",
  "rust_decimal",
  "serde",
@@ -460,9 +460,9 @@ dependencies = [
 
 [[package]]
 name = "funty"
-version = "1.0.1"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0ba62103ce691c2fd80fbae2213dfdda9ce60804973ac6b6e97de818ea7f52c8"
+checksum = "fed34cd105917e91daa4da6b3728c47b068749d6a62c59811f06ed2ac71d9da7"
 
 [[package]]
 name = "generic-array"
@@ -802,11 +802,12 @@ dependencies = [
 
 [[package]]
 name = "nom"
-version = "6.0.0"
+version = "6.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4489ccc7d668957ddf64af7cd027c081728903afa6479d35da7e99bf5728f75f"
+checksum = "9c5c51b9083a3c620fa67a2a635d1ce7d95b897e957d6b28ff9a5da960a103a6"
 dependencies = [
  "bitvec",
+ "funty",
  "lexical-core",
  "memchr",
  "version_check",
@@ -887,7 +888,7 @@ version = "0.1.0"
 dependencies = [
  "ast",
  "data",
- "nom 6.0.0",
+ "nom 6.2.1",
 ]
 
 [[package]]

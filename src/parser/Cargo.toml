@@ -9,4 +9,4 @@ publish = false
 ast = { path = "../ast" }
 data = { path = "../data" }
 
-nom = "6.0.0"
+nom = "6.2.1"
